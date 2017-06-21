@@ -1,0 +1,36 @@
+1498053322528	geckodriver	INFO	Listening on 127.0.0.1:12426
+1498053323054	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1498053326361	Marionette	INFO	Listening on port 12432
+1498053327294	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498053356660	geckodriver	INFO	Listening on 127.0.0.1:12505
+1498053357186	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1498053360494	Marionette	INFO	Listening on port 12511
+1498053361427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498053371408	Marionette	INFO	New connections will no longer be accepted
+1498053391195	geckodriver	INFO	Listening on 127.0.0.1:12945
+1498053391718	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1498053394881	Marionette	INFO	Listening on port 12949
+1498053395956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498053408447	Marionette	INFO	New connections will no longer be accepted
+1498053516450	geckodriver	INFO	Listening on 127.0.0.1:13669
+1498053516964	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1498053520165	Marionette	INFO	Listening on port 13673
+1498053521204	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498053535546	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: https://enterprise.api-maps.yandex.ru/2.1.34/?load=package.standard,package.clusters&mode=release&lang=ru-RU&ns=ymaps&apikey=ac01af5d-b3d1-477a-8f38-e0a30e175948, line 2: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://enterprise.api-maps.yandex.ru/2.1.34/?load=package.standard,package.clusters&mode=release&lang=ru-RU&ns=ymaps&apikey=ac01af5d-b3d1-477a-8f38-e0a30e175948, line 2: NS_ERROR_NOT_INITIALIZED: 
+1498053599561	geckodriver	INFO	Listening on 127.0.0.1:14339
+1498053600085	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1498053603513	Marionette	INFO	Listening on port 14343
+1498053604332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498053617467	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: https://enterprise.api-maps.yandex.ru/2.1.34/?load=package.standard,package.clusters&mode=release&lang=ru-RU&ns=ymaps&apikey=ac01af5d-b3d1-477a-8f38-e0a30e175948, line 2: NS_ERROR_NOT_INITIALIZED: 
+1498053657279	geckodriver	INFO	Listening on 127.0.0.1:15001
+1498053657802	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1498053661154	Marionette	INFO	Listening on port 15007
+1498053662042	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498053682737	Marionette	INFO	New connections will no longer be accepted
+1498053756552	geckodriver	INFO	Listening on 127.0.0.1:15757
+1498053757076	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1498053760309	Marionette	INFO	Listening on port 15763
+1498053761316	Marionette	WARN	TLS certificate errors will be ignored for this session

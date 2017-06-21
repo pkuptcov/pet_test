@@ -24,16 +24,16 @@ class Cart(unittest.TestCase):
             except: pass
             time.sleep(1)
         else: self.fail("time out")
-        driver.find_element_by_link_text(u"Удалить").click()
+        driver.find_element_by_link_text("Удалить").click()
         for i in range(60):
             try:
-                if self.is_element_present(By.CSS_SELECTOR, u"input[placeholder=\"•••••••\"]"): break
+                if self.is_element_present(By.CSS_SELECTOR, "input[placeholder=\"•••••••\"]"): break
             except: pass
             time.sleep(1)
         else: self.fail("time out")
-        driver.find_element_by_css_selector(u"input[placeholder=\"•••••••\"]").clear()
-        driver.find_element_by_css_selector(u"input[placeholder=\"•••••••\"]").send_keys("111111")
-        driver.find_element_by_css_selector(u"button:contains('Пересчитать')").click()
+        driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").clear()
+        driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").send_keys("111111")
+        driver.find_element_by_css_selector("button:contains('Пересчитать')").click()
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.goToOrdering()']").click()
         for i in range(60):
             try:

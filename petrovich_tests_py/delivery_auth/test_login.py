@@ -10,7 +10,7 @@ import unittest, time, re
 class Login(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(10)
         self.base_url = "https://petrovich.ru/"
         self.verificationErrors = []
         self.accept_next_alert = True
@@ -18,7 +18,7 @@ class Login(unittest.TestCase):
     def test_login(self):
         driver = self.driver
         driver.get(self.base_url + "/")
-        driver.find_element_by_link_text(u"Âõîä").click()
+        driver.find_element_by_link_text("Ð’Ñ…Ð¾Ð´").click()
         driver.find_element_by_id("mainPetrovichLogin_login").clear()
         driver.find_element_by_id("mainPetrovichLogin_login").send_keys("xigekuba@p33.org")
         driver.find_element_by_id("mainPetrovichLogin_password").clear()
@@ -37,13 +37,13 @@ class Login(unittest.TestCase):
         return True
     
     def is_alert_present(self):
-        try: self.driver.switch_to_alert()
+        try: self.driver.switch_to.alert()
         except NoAlertPresentException as e: return False
         return True
     
     def close_alert_and_get_its_text(self):
         try:
-            alert = self.driver.switch_to_alert()
+            alert = self.driver.switch_to.alert()
             alert_text = alert.text
             if self.accept_next_alert:
                 alert.accept()

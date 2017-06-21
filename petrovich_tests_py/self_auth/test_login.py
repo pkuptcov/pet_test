@@ -18,7 +18,7 @@ class Login(unittest.TestCase):
     def test_login(self):
         driver = self.driver
         driver.get(self.base_url + "/")
-        driver.find_element_by_link_text(u"ÇıÓ‰").click()
+        driver.find_element_by_link_text("–í—Ö–æ–¥").click()
         driver.find_element_by_id("mainPetrovichLogin_login").clear()
         driver.find_element_by_id("mainPetrovichLogin_login").send_keys("xigekuba@p33.org")
         driver.find_element_by_id("mainPetrovichLogin_password").clear()

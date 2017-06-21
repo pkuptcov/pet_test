@@ -24,9 +24,9 @@ class Cart(unittest.TestCase):
             except: pass
             time.sleep(1)
         else: self.fail("time out")
-        driver.find_element_by_css_selector(u"input[placeholder=\"•••••••\"]").clear()
-        driver.find_element_by_css_selector(u"input[placeholder=\"•••••••\"]").send_keys("111111")
-        driver.find_element_by_css_selector(u"button:contains('Пересчитать')").click()
+        driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").clear()
+        driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").send_keys("111111")
+        driver.find_element_by_css_selector("button[ng-click='totalCtrl.addCard()']").click()
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.goToOrdering()']").click()
         for i in range(60):
             try:
@@ -41,13 +41,13 @@ class Cart(unittest.TestCase):
         return True
     
     def is_alert_present(self):
-        try: self.driver.switch_to_alert()
+        try: self.driver.switch_to.alert()
         except NoAlertPresentException as e: return False
         return True
     
     def close_alert_and_get_its_text(self):
         try:
-            alert = self.driver.switch_to_alert()
+            alert = self.driver.switch_to.alert()
             alert_text = alert.text
             if self.accept_next_alert:
                 alert.accept()

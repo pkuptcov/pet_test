@@ -18,7 +18,7 @@ class Search(unittest.TestCase):
     def test_search(self):
         driver = self.driver
         driver.find_element_by_id("query").clear()
-        driver.find_element_by_id("query").send_keys(u"ондулин гвоздь")
+        driver.find_element_by_id("query").send_keys("РіРІРѕР·РґСЊ РѕРЅРґСѓР»РёРЅ")
         driver.find_element_by_css_selector("form#search [type=submit]").click()
     
     def is_element_present(self, how, what):
@@ -27,7 +27,7 @@ class Search(unittest.TestCase):
         return True
     
     def is_alert_present(self):
-        try: self.driver.switch_to_alert()
+        try: self.driver.switch_to.alert()
         except NoAlertPresentException as e: return False
         return True
     
