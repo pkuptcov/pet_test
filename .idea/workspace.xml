@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="072c2a3c-a8fa-4ed8-a07b-afbc959bc709" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_cart.py" afterPath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_cart.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_login.py" afterPath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_logout.py" afterPath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_logout.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_order.py" afterPath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_order.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_search.py" afterPath="$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth/test_cart.py" afterPath="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth/test_cart.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petrovich_tests_py/self_auth/test_login.py" afterPath="$PROJECT_DIR$/petrovich_tests_py/self_auth/test_login.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regress/Chrome/geckodriver.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regress/Firefox/delivery_auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regress/Firefox/delivery_non_auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regress/Firefox/self_auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regress/Firefox/self_non_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regress/delivery_auth.py" afterPath="$PROJECT_DIR$/regress/Chrome/delivery_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regress/delivery_non_auth.py" afterPath="$PROJECT_DIR$/regress/Chrome/delivery_non_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regress/self_auth.py" afterPath="$PROJECT_DIR$/regress/Chrome/self_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/regress/self_non_auth.py" afterPath="$PROJECT_DIR$/regress/Chrome/self_non_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +23,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_regress_py__2_.coverage" NAME="py.test in regress.py (2) Coverage Results" MODIFIED="1498053756176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_test_login_py.coverage" NAME="py.test in test_login.py Coverage Results" MODIFIED="1497976259619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_for_delivery_auth_delivery_auth_test_regress.coverage" NAME="py.test for delivery_auth.delivery_auth.test_regress Coverage Results" MODIFIED="1502180292688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_regress_py__3_.coverage" NAME="py.test in regress.py (3) Coverage Results" MODIFIED="1498054202975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/self_non_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_delivery_auth_py.coverage" NAME="py.test in delivery_auth.py Coverage Results" MODIFIED="1498054430159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_test_cart_py.coverage" NAME="py.test in test_cart.py Coverage Results" MODIFIED="1498053322151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth" />
@@ -27,9 +31,11 @@
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login.coverage" NAME="py.test for test_login.Login Coverage Results" MODIFIED="1497531292884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$1.coverage" NAME="1 Coverage Results" MODIFIED="1497519738154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_regress_Regress_test_regress.coverage" NAME="py.test for regress.Regress.test_regress Coverage Results" MODIFIED="1498044908958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_for_delivery_auth_delivery_auth_setUp.coverage" NAME="py.test for delivery_auth.delivery_auth.setUp Coverage Results" MODIFIED="1502178317977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login_setUp.coverage" NAME="py.test for test_login.Login.setUp Coverage Results" MODIFIED="1497530431920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login_test_setUp.coverage" NAME="py.test for test_login.Login.test_setUp Coverage Results" MODIFIED="1497521262026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login_test_login.coverage" NAME="py.test for test_login.Login.test_login Coverage Results" MODIFIED="1497521412549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_delivery_auth_py__1_.coverage" NAME="py.test in delivery_auth.py Coverage Results" MODIFIED="1502182076805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress" />
     <SUITE FILE_PATH="coverage/pet_test$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1497521189656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_search_Search_setUp.coverage" NAME="py.test for test_search.Search.setUp Coverage Results" MODIFIED="1497531087812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_test_search_py.coverage" NAME="py.test in test_search.py Coverage Results" MODIFIED="1497531092774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
@@ -39,58 +45,23 @@
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_regress_py.coverage" NAME="py.test in regress.py Coverage Results" MODIFIED="1498043322144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pet_test" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="delivery_auth.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/delivery_auth.py">
+        <entry file="file://$PROJECT_DIR$/regress/Firefox/delivery_auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#24#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delivery_non_auth.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth/delivery_non_auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="e#24#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="self_non_auth.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_non_auth/self_non_auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <element signature="e#24#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="self_auth.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/self_auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="e#24#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="geckodriver.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/geckodriver.log">
+        <entry file="file://$PROJECT_DIR$/regress/Firefox/geckodriver.log">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -99,14 +70,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_to_cart.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_add_to_cart.py">
+      <file leaf-file-name="self_non_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regress/Firefox/self_non_auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-              <folding>
-                <element signature="e#24#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delivery_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regress/Chrome/delivery_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delivery_non_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regress/Chrome/delivery_non_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geckodriver.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regress/Chrome/geckodriver.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="self_non_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regress/Chrome/self_non_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="self_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regress/Chrome/self_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delivery_non_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regress/Firefox/delivery_non_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="self_auth.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regress/Firefox/self_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1054">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,12 +156,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>u&quot;</find>
+      <find>23</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,6 +186,16 @@
         <option value="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth/regress.py" />
         <option value="$PROJECT_DIR$/petrovich_tests_py/self_auth/regress.py" />
         <option value="$PROJECT_DIR$/petrovich_tests_py/self_auth/self_auth.py" />
+        <option value="$PROJECT_DIR$/tabs.py" />
+        <option value="$PROJECT_DIR$/regress/delivery_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Firefox/delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Firefox/self_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Firefox/self_non_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Chrome/delivery_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Chrome/delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Chrome/self_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Chrome/self_non_auth.py" />
+        <option value="$PROJECT_DIR$/regress/Firefox/delivery_auth.py" />
       </list>
     </option>
   </component>
@@ -175,7 +226,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,11 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="petrovich_tests_py" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="self_non_auth" />
+              <option name="myItemId" value="regress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,29 +262,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="petrovich_tests_py" />
+              <option name="myItemId" value="regress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="self_auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="petrovich_tests_py" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="delivery_non_auth" />
+              <option name="myItemId" value="Firefox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -252,40 +280,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="petrovich_tests_py" />
+              <option name="myItemId" value="regress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="delivery_auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="petrovich_tests_py" />
+              <option name="myItemId" value="Chrome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\pet_test\regress\Chrome" />
+      <recent name="C:\GitHub\pet_test\regress\Firefox" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\pet_test\regress\Chrome" />
       <recent name="C:\GitHub\pet_test\petrovich_tests_py\self_non_auth" />
     </key>
   </component>
@@ -302,57 +322,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.py.test in delivery_auth.py">
-    <configuration default="false" name="py.test in self_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petrovich_tests_py/self_auth" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pet_test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/petrovich_tests_py/self_auth/self_auth.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in test_cart.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pet_test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth/test_cart.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in delivery_non_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pet_test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth/delivery_non_auth.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
     <configuration default="false" name="py.test in self_non_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,7 +344,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regress" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -383,8 +352,42 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/petrovich_tests_py/delivery_auth/delivery_auth.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/regress/Firefox/delivery_auth.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test for regress.Firefox.delivery_auth.delivery_auth.test_regress" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regress" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pet_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;regress.Firefox.delivery_auth.delivery_auth.test_regress&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test for regress.Firefox.delivery_auth.delivery_auth.setUp" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regress" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pet_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;regress.Firefox.delivery_auth.delivery_auth.setUp&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -536,20 +539,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in self_auth.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_cart.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in delivery_non_auth.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in self_non_auth.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in delivery_auth.py" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in self_non_auth.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in delivery_auth.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for regress.Firefox.delivery_auth.delivery_auth.test_regress" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for regress.Firefox.delivery_auth.delivery_auth.setUp" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in delivery_auth.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in self_non_auth.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in delivery_non_auth.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_cart.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in self_auth.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for regress.Firefox.delivery_auth.delivery_auth.test_regress" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for regress.Firefox.delivery_auth.delivery_auth.setUp" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in delivery_auth.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in self_non_auth.py" />
       </list>
     </recent_temporary>
   </component>
@@ -567,59 +569,67 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_delivery_auth_py - 2017.06.21 at 17h 14m 19s.xml">
+    <history-entry file="py_test_for_delivery_auth_delivery_auth_test_regress - 2017.08.08 at 11h 18m 46s.xml">
+      <configuration name="py.test for delivery_auth.delivery_auth.test_regress" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_delivery_auth_py - 2017.08.08 at 11h 29m 43s.xml">
       <configuration name="py.test in delivery_auth.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(2) - 2017.06.21 at 16h 56m 11s.xml">
-      <configuration name="py.test in regress.py (2)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py - 2017.08.08 at 11h 45m 08s.xml">
+      <configuration name="py.test in delivery_auth.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(2) - 2017.06.21 at 16h 56m 57s.xml">
-      <configuration name="py.test in regress.py (2)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py - 2017.08.08 at 11h 45m 57s.xml">
+      <configuration name="py.test in delivery_auth.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(2) - 2017.06.21 at 16h 58m 55s.xml">
-      <configuration name="py.test in regress.py (2)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py - 2017.08.08 at 11h 48m 31s.xml">
+      <configuration name="py.test in delivery_auth.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(2) - 2017.06.21 at 17h 00m 17s.xml">
-      <configuration name="py.test in regress.py (2)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py_(1) - 2017.08.08 at 11h 13m 59s.xml">
+      <configuration name="py.test in delivery_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(2) - 2017.06.21 at 17h 01m 23s.xml">
-      <configuration name="py.test in regress.py (2)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py_(1) - 2017.08.08 at 11h 15m 15s.xml">
+      <configuration name="py.test in delivery_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(2) - 2017.06.21 at 17h 04m 10s.xml">
-      <configuration name="py.test in regress.py (2)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py_(1) - 2017.08.08 at 11h 16m 13s.xml">
+      <configuration name="py.test in delivery_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(3) - 2017.06.21 at 17h 08m 53s.xml">
-      <configuration name="py.test in regress.py (3)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py_(1) - 2017.08.08 at 11h 18m 03s.xml">
+      <configuration name="py.test in delivery_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(3) - 2017.06.21 at 17h 09m 33s.xml">
-      <configuration name="py.test in regress.py (3)" configurationId="tests" />
+    <history-entry file="py_test_in_delivery_auth_py_(1) - 2017.08.08 at 11h 19m 07s.xml">
+      <configuration name="py.test in delivery_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_regress_py_(3) - 2017.06.21 at 17h 10m 55s.xml">
-      <configuration name="py.test in regress.py (3)" configurationId="tests" />
-    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13539445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123667374" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30880713" sideWeight="0.14765458" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.24360341" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30880713" sideWeight="0.8523454" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30880713" sideWeight="0.8395522" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12260128" sideWeight="0.5064516" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.7563966" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -660,53 +670,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/test_add_to_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_order.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" column="128" lean-forward="false" selection-start-line="26" selection-start-column="128" selection-end-line="26" selection-end-column="128" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,9 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,9 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,23 +709,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/1.py" />
     <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_logout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,9 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,9 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -830,9 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,32 +773,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="434" column="0" lean-forward="true" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/1.py" />
     <entry file="file://$PROJECT_DIR$/1.py" />
     <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/test_add_to_cart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,23 +789,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/1.py" />
     <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_cart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,9 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,19 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_add_to_cart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="161" column="91" lean-forward="false" selection-start-line="161" selection-start-column="91" selection-end-line="161" selection-end-column="91" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,15 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="492" column="0" lean-forward="false" selection-start-line="492" selection-start-column="0" selection-end-line="492" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,27 +874,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_non_auth/self_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/delivery_auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1027,19 +888,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_non_auth/self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petrovich_tests_py/delivery_auth/test_add_to_cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petrovich_tests_py/self_auth/self_auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tabs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="438" column="8" lean-forward="false" selection-start-line="438" selection-start-column="8" selection-end-line="438" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Firefox/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Chrome/delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Chrome/delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Chrome/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Chrome/self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Chrome/self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Firefox/delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Firefox/delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Firefox/self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regress/Firefox/self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1054">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

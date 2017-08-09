@@ -1,0 +1,20 @@
+1500360734043	geckodriver	INFO	Listening on 127.0.0.1:39078
+1500360734519	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1500360739464	Marionette	INFO	Listening on port 39082
+1500360739803	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s1.tdp.ru/desktop/build/45f815e41ace1090d677.bundle.common.js, line 1: ReferenceError: event is not defined
+JavaScript error: https://s1.tdp.ru/desktop/build/45f815e41ace1090d677.bundle.common.js, line 1: ReferenceError: event is not defined
+JavaScript error: https://s1.tdp.ru/desktop/build/971a00616700d70ea4af.bundle.cart.js, line 1: TypeError: ymaps.geocode is not a function
+1502178329734	geckodriver	INFO	Listening on 127.0.0.1:29831
+1502178329801	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502178333793	Marionette	INFO	Listening on port 29835
+1502178334301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
+JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
+1502178639856	geckodriver	INFO	Listening on 127.0.0.1:31088
+1502178640385	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502178643828	Marionette	INFO	Listening on port 31092
+1502178644648	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
+JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
+JavaScript error: https://s1.tdp.ru/desktop/build/4c322ad114f020a3967b.bundle.cart.js, line 1: TypeError: ymaps.geocode is not a function

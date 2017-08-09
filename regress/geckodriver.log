@@ -1,0 +1,21 @@
+1502180966244	geckodriver	INFO	Listening on 127.0.0.1:38344
+1502180966766	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502180970786	Marionette	INFO	Listening on port 38348
+1502180971129	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
+1502181903463	geckodriver	INFO	Listening on 127.0.0.1:40579
+1502181903985	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502181907845	Marionette	INFO	Listening on port 40585
+1502181908285	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502181924477	Marionette	INFO	Ceased listening
+1502181953021	geckodriver	INFO	Listening on 127.0.0.1:40694
+1502181953532	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502181957062	Marionette	INFO	Listening on port 40698
+1502181957792	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502181964809	Marionette	INFO	Ceased listening
+1502182077242	geckodriver	INFO	Listening on 127.0.0.1:40960
+1502182077765	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502182081224	Marionette	INFO	Listening on port 40964
+1502182082017	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
+JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
