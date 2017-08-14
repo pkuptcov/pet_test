@@ -102,7 +102,7 @@ class delivery_auth(unittest.TestCase):
             self.fail("time out")
         driver.find_element_by_css_selector("a.auth_user_link").click()
         driver.find_element_by_link_text("Выход").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if self.is_element_present(By.LINK_TEXT, "Вход"): break
             except:
