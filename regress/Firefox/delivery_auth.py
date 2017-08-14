@@ -11,7 +11,7 @@ import unittest, time, re
 class delivery_auth(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.set_window_size(1920, 1080)
+        self.driver.maximize_window()
         self.driver.implicitly_wait(30)
         self.base_url = "https://petrovich.ru/"
         self.verificationErrors = []
