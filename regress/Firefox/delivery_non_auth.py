@@ -53,8 +53,8 @@ class delivery_non_auth(unittest.TestCase):
         driver.find_element_by_xpath("(//input[@name='delivery_day'])[3]").click()
         driver.find_element_by_css_selector("[ng-change=\"orderDeliveryCtrl.deliveryTypeChange('standard')\"]").click()
         # Select(driver.find_element_by_xpath("//div[@id='tab_delivery']/ol/li[3]/div/ul/li[2]/div/select")).select_by_visible_text("23:30 – 03:30")
+        time.sleep(1)
         driver.find_element_by_css_selector("option[value='С2330До0330']").click()
-        time.sleep(2)
         driver.find_element_by_name("delivery_pay").click()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").clear()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").send_keys(
@@ -70,9 +70,10 @@ class delivery_non_auth(unittest.TestCase):
         driver.find_element_by_css_selector("input[ng-click=\"orderDeliveryCtrl.make($event)\"]").click()
         time.sleep(2)
 
-        for i in range(60):
+        for i in range(10):
             try:
-                if "Спасибо за покупку!" == driver.find_element_by_css_selector("p.thanks__big-text").text: break
+                if re.search(r"^Спасибо за покупку! [\s\S]*$",
+                             driver.find_element_by_css_selector("p.thanks__big-text").text): break
             except:
                 pass
             time.sleep(1)
@@ -88,14 +89,14 @@ class delivery_non_auth(unittest.TestCase):
 
     def is_alert_present(self):
         try:
-            self.driver.switch_to_alert()
+            self.driver.switch_to.alert()
         except NoAlertPresentException as e:
             return False
         return True
 
     def close_alert_and_get_its_text(self):
         try:
-            alert = self.driver.switch_to_alert()
+            alert = self.driver.switch_to.alert()
             alert_text = alert.text
             if self.accept_next_alert:
                 alert.accept()

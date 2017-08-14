@@ -77,8 +77,8 @@ class delivery_auth(unittest.TestCase):
         driver.find_element_by_xpath("(//input[@name='delivery_day'])[3]").click()
         driver.find_element_by_css_selector("[ng-change=\"orderDeliveryCtrl.deliveryTypeChange('standard')\"]").click()
         # Select(driver.find_element_by_xpath("//div[@id='tab_delivery']/ol/li[3]/div/ul/li[2]/div/select")).select_by_visible_text("23:30 – 03:30")
+        time.sleep(1)
         driver.find_element_by_css_selector("option[value='С2330До0330']").click()
-        time.sleep(2)
         driver.find_element_by_name("delivery_pay").click()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").clear()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").send_keys(
