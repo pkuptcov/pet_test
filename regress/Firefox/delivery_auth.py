@@ -26,7 +26,7 @@ class delivery_auth(unittest.TestCase):
         driver.find_element_by_id("mainPetrovichLogin_password").clear()
         driver.find_element_by_id("mainPetrovichLogin_password").send_keys("111111")
         driver.find_element_by_css_selector("div.form_row [type=submit]").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if self.is_element_present(By.LINK_TEXT, "test"): break
             except:
@@ -41,7 +41,7 @@ class delivery_auth(unittest.TestCase):
         driver.find_element_by_css_selector("div.stepper-arrow.up.unit--step").click()
         driver.find_element_by_css_selector("[data-product-code='101845']").click()
         driver.find_element_by_css_selector("div.head_basket_wrapper").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if self.is_element_present(By.CSS_SELECTOR, "span.radio_input"): break
             except:
@@ -50,7 +50,7 @@ class delivery_auth(unittest.TestCase):
         else:
             self.fail("time out")
         driver.find_element_by_link_text("Удалить").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if self.is_element_present(By.CSS_SELECTOR, "input[placeholder=\"•••••••\"]"): break
             except:
@@ -62,7 +62,7 @@ class delivery_auth(unittest.TestCase):
         driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").send_keys("111111")
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.addCard()']").click()
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.goToOrdering()']").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if re.search(r"^Введите адрес доставки [\s\S]*$",
                              driver.find_element_by_css_selector("p.delivery_form_step_header").text): break
@@ -92,7 +92,7 @@ class delivery_auth(unittest.TestCase):
         driver.find_element_by_css_selector("textarea[ng-model='orderDeliveryCtrl.order.userComment']").send_keys(
             "тест")
         driver.find_element_by_css_selector("input[ng-click=\"orderDeliveryCtrl.make($event)\"]").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if "Спасибо за покупку!" == driver.find_element_by_css_selector("p.thanks__big-text").text: break
             except:
@@ -102,7 +102,7 @@ class delivery_auth(unittest.TestCase):
             self.fail("time out")
         driver.find_element_by_css_selector("a.auth_user_link").click()
         driver.find_element_by_link_text("Выход").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if self.is_element_present(By.LINK_TEXT, "Вход"): break
             except:

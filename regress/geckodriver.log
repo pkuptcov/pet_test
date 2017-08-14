@@ -19,3 +19,12 @@ JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.co
 1502182082017	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
 JavaScript error: https://s1.tdp.ru/desktop/build/4b97e6dbe16938bae51e.bundle.common.js, line 1: ReferenceError: event is not defined
+1502717471263	geckodriver	INFO	Listening on 127.0.0.1:14174
+1502717471718	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502717476263	Marionette	INFO	Listening on port 14180
+1502717476597	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s1.tdp.ru/desktop/build/98bc6886a7bb2cea4290.bundle.common.js, line 1: Error: @ADV -- RoutingEntry -- Can not get type of current page
+JavaScript error: https://s1.tdp.ru/desktop/build/98bc6886a7bb2cea4290.bundle.common.js, line 1: Error: @ADV -- RoutingEntry -- Can not get type of current page
+JavaScript error: https://s1.tdp.ru/desktop/build/a131480c96e039a49c1b.bundle.cart.js, line 1: ReferenceError: ymaps is not defined
+JavaScript error: https://s1.tdp.ru/desktop/build/a131480c96e039a49c1b.bundle.cart.js, line 1: ReferenceError: ymaps is not defined
+1502717591513	Marionette	INFO	New connections will no longer be accepted

@@ -26,7 +26,7 @@ class delivery_non_auth(unittest.TestCase):
         driver.find_element_by_css_selector("div.stepper-arrow.up.unit--step").click()
         driver.find_element_by_css_selector("[data-product-code='101845']").click()
         driver.find_element_by_css_selector("div.head_basket_wrapper").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if self.is_element_present(By.CSS_SELECTOR, "span.radio_input"): break
             except:
@@ -38,7 +38,7 @@ class delivery_non_auth(unittest.TestCase):
         driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").send_keys("111111")
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.addCard()']").click()
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.goToOrdering()']").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if re.search(r"^Введите адрес доставки [\s\S]*$",
                              driver.find_element_by_css_selector("p.delivery_form_step_header").text): break
@@ -70,7 +70,7 @@ class delivery_non_auth(unittest.TestCase):
         driver.find_element_by_css_selector("input[ng-click=\"orderDeliveryCtrl.make($event)\"]").click()
         time.sleep(2)
 
-        for i in range(60):
+        for i in range(10):
             try:
                 if "Спасибо за покупку!" == driver.find_element_by_css_selector("p.thanks__big-text").text: break
             except:

@@ -26,7 +26,7 @@ class Regress(unittest.TestCase):
         driver.find_element_by_css_selector("div.stepper-arrow.up.unit--step").click()
         driver.find_element_by_css_selector("[data-product-code='101845']").click()
         driver.find_element_by_css_selector("div.head_basket_wrapper").click()
-        for i in range(60):
+        for i in range(10):
             try:
                 if self.is_element_present(By.CSS_SELECTOR, "span.radio_input"): break
             except:
@@ -52,7 +52,7 @@ class Regress(unittest.TestCase):
             "тест")
         driver.find_element_by_css_selector("input[ng-click=\"orderingSelfCtrl.make($event)\"]").click()
 
-        for i in range(60):
+        for i in range(10):
             try:
                 if "Спасибо за покупку!" == driver.find_element_by_css_selector("p.thanks__big-text").text: break
             except:
