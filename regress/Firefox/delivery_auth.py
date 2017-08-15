@@ -36,7 +36,6 @@ class delivery_auth(unittest.TestCase):
             self.fail("time out")
         driver.find_element_by_id("query").clear()
         driver.find_element_by_id("query").send_keys("ондулин гвоздь")
-        time.sleep(5)
         driver.find_element_by_css_selector("form#search [type=submit]").click()
         driver.find_element_by_css_selector("div.stepper-arrow.up.unit--step").click()
         driver.find_element_by_css_selector("[data-product-code='101845']").click()
