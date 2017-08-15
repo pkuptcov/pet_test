@@ -8,7 +8,8 @@ from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 
 
-class delivery_non_auth(unittest.TestCase):
+        # Подключение вебдрайвера и конфиг окружения
+class self_non_auth(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         self.driver.maximize_window()
@@ -17,67 +18,52 @@ class delivery_non_auth(unittest.TestCase):
         self.verificationErrors = []
         self.accept_next_alert = True
 
+        # Переход на сайт
     def test_regress(self):
         driver = self.driver
         driver.get(self.base_url + "/")
-        driver.find_element_by_id("query").clear()
+
+        # Поиск товара по сайту
         driver.find_element_by_id("query").send_keys("ондулин гвоздь")
         driver.find_element_by_css_selector("form#search [type=submit]").click()
+
+        # Увеличение товара в листинге выдачи поиска
         driver.find_element_by_css_selector("div.stepper-arrow.up.unit--step").click()
         driver.find_element_by_css_selector("[data-product-code='101845']").click()
+
+        # Переход в корзину
         driver.find_element_by_css_selector("div.head_basket_wrapper").click()
-        for i in range(10):
-            try:
-                if self.is_element_present(By.CSS_SELECTOR, "span.radio_input"): break
-            except:
-                pass
-            time.sleep(1)
-        else:
-            self.fail("time out")
-        driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").clear()
+
+        # Вводим ККД
         driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").send_keys("111111")
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.addCard()']").click()
+
+        # Нажимаем оформить
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.goToOrdering()']").click()
-        for i in range(10):
-            try:
-                if re.search(r"^Введите адрес доставки [\s\S]*$",
-                             driver.find_element_by_css_selector("p.delivery_form_step_header").text): break
-            except:
-                pass
-            time.sleep(1)
-        else:
-            self.fail("time out")
-        driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.deliveryAddress\"]").clear()
+
+        # Страница оформления заказа
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.deliveryAddress\"]").send_keys(
             "Россия, Санкт-Петербург, Благодатная улица, 6")
         driver.find_element_by_xpath("(//input[@name='delivery_day'])[3]").click()
         driver.find_element_by_css_selector("[ng-change=\"orderDeliveryCtrl.deliveryTypeChange('standard')\"]").click()
-        # Select(driver.find_element_by_xpath("//div[@id='tab_delivery']/ol/li[3]/div/ul/li[2]/div/select")).select_by_visible_text("23:30 – 03:30")
         time.sleep(1)
         driver.find_element_by_css_selector("option[value='С2330До0330']").click()
-        driver.find_element_by_name("delivery_pay").click()
-        driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").clear()
+        driver.find_element_by_css_selector("input[value=\"online\"]").click()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").send_keys(
             "propetrovich@mail.ru")
-        driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userPhone\"]").clear()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userPhone\"]").send_keys(
             "+7 (111) 111-11-11")
-        driver.find_element_by_name("user_name").clear()
-        driver.find_element_by_name("user_name").send_keys(u"Тест")
-        driver.find_element_by_css_selector("textarea[ng-model='orderDeliveryCtrl.order.userComment']").clear()
+        driver.find_element_by_name("user_name").send_keys("Тест")
         driver.find_element_by_css_selector("textarea[ng-model='orderDeliveryCtrl.order.userComment']").send_keys(
             "тест")
         driver.find_element_by_css_selector("input[ng-click=\"orderDeliveryCtrl.make($event)\"]").click()
-        time.sleep(2)
 
-        for i in range(10):
-            try:
-                if "Спасибо за покупку!" == driver.find_element_by_css_selector("p.thanks__big-text").text: break
-            except:
-                pass
-            time.sleep(1)
-        else:
-            self.fail("time out")
+        # Страница спасибо за покупку и переход в личный кабинет
+        driver.find_element_by_css_selector("a.thanks__lk-link").click()
+
+        # Проверка оформленного заказа
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "h1.order-title"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.order_section"))
 
     def is_element_present(self, how, what):
         try:
