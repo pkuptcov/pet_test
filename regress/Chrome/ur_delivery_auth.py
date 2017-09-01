@@ -9,7 +9,7 @@ import unittest, time, re
 
 
         # Подключение вебдрайвера и конфиг окружения
-class delivery_auth(unittest.TestCase):
+class fiz_delivery_auth(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
@@ -44,7 +44,7 @@ class delivery_auth(unittest.TestCase):
         # Переход в корзину
         driver.find_element_by_css_selector("div.head_basket_wrapper").click()
 
-        # Удаляем предыдущую карту и вводим новую
+        # Выбор вкладки юридического лица
         driver.find_element_by_link_text("Удалить").click()
         driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").send_keys("111111")
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.addCard()']").click()

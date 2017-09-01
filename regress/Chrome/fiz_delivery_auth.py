@@ -9,7 +9,7 @@ import unittest, time, re
 
 
         # Подключение вебдрайвера и конфиг окружения
-class delivery_non_auth(unittest.TestCase):
+class fiz_delivery_auth(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
@@ -23,6 +23,16 @@ class delivery_non_auth(unittest.TestCase):
         driver = self.driver
         driver.get(self.base_url + "/")
 
+        # Авторизация
+        driver.find_element_by_link_text("Вход").click()
+        driver.find_element_by_id("mainPetrovichLogin_login").send_keys("xigekuba@p33.org")
+        driver.find_element_by_id("mainPetrovichLogin_password").send_keys("111111")
+        driver.find_element_by_css_selector("div.form_row [type=submit]").click()
+        time.sleep(1)
+
+        # Проверка авторизации
+        self.assertTrue(self.is_element_present(By.LINK_TEXT, "test"))
+
         # Поиск товара по сайту
         driver.find_element_by_id("query").send_keys("ондулин гвоздь")
         driver.find_element_by_css_selector("form#search [type=submit]").click()
@@ -34,7 +44,8 @@ class delivery_non_auth(unittest.TestCase):
         # Переход в корзину
         driver.find_element_by_css_selector("div.head_basket_wrapper").click()
 
-        # Вводим ККД
+        # Удаляем предыдущую карту и вводим новую
+        driver.find_element_by_link_text("Удалить").click()
         driver.find_element_by_css_selector("input[placeholder=\"•••••••\"]").send_keys("111111")
         driver.find_element_by_css_selector("button[ng-click='totalCtrl.addCard()']").click()
 
@@ -49,10 +60,13 @@ class delivery_non_auth(unittest.TestCase):
         time.sleep(1)
         driver.find_element_by_css_selector("option[value='С2330До0330']").click()
         driver.find_element_by_css_selector("input[value=\"online\"]").click()
+        driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").clear()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").send_keys(
             "propetrovich@mail.ru")
+        driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userPhone\"]").clear()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userPhone\"]").send_keys(
             "+7 (111) 111-11-11")
+        driver.find_element_by_name("user_name").clear()
         driver.find_element_by_name("user_name").send_keys("Тест")
         driver.find_element_by_css_selector("textarea[ng-model='orderDeliveryCtrl.order.userComment']").send_keys(
             "тест")
@@ -64,6 +78,15 @@ class delivery_non_auth(unittest.TestCase):
         # Проверка оформленного заказа
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "span.order__id"))
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "p.__info__title"))
+        time.sleep(1)
+
+        # Выход из ЛК
+        driver.find_element_by_css_selector("a.auth_user_link").click()
+        driver.find_element_by_link_text("Выход").click()
+        time.sleep(1)
+
+        # Проверка выхода из ЛК
+        self.assertTrue(self.is_element_present(By.LINK_TEXT, "Вход"))
 
     def is_element_present(self, how, what):
         try:
