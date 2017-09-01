@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 
         # Подключение вебдрайвера и конфиг окружения
-class self_non_auth(unittest.TestCase):
+class self_auth(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
