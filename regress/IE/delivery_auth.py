@@ -76,8 +76,8 @@ class self_non_auth(unittest.TestCase):
         driver.find_element_by_css_selector("a.thanks__lk-link").click()
 
         # Проверка оформленного заказа
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "h1.order-title"))
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.order_section"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "span.order__id"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "p.__info__title"))
         time.sleep(1)
 
         # Выход из ЛК
