@@ -13,7 +13,7 @@ class self_non_auth(unittest.TestCase):
         self.driver = webdriver.Firefox()
         self.driver.maximize_window()
         self.driver.implicitly_wait(30)
-        self.base_url = "https://petrovich.ru/"
+        self.base_url = "https://pet.beta.kluatr.ru/"
         self.verificationErrors = []
         self.accept_next_alert = True
 
