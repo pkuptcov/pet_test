@@ -1,0 +1,4 @@
+{
+  "self_auth.py::self_non_auth::test_regress": true,
+  "self_non_auth.py::self_non_auth::test_regress": true
+}

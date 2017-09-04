@@ -19,7 +19,7 @@ class self_non_auth(unittest.TestCase):
         self.accept_next_alert = True
 
         # Переход на страницу сайта
-    def test_city_change(self):
+    def regress(self):
         driver = self.driver
         driver.get(self.base_url + "/")
 

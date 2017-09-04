@@ -28,3 +28,17 @@ JavaScript error: https://s1.tdp.ru/desktop/build/9ee61659b7e1544e2990.bundle.co
 JavaScript error: https://s1.tdp.ru/desktop/build/9ee61659b7e1544e2990.bundle.common.js, line 1: Error: @ADV -- RoutingEntry -- Can not get type of current page
 JavaScript error: https://s1.tdp.ru/desktop/build/9ee61659b7e1544e2990.bundle.common.js, line 1: ReferenceError: event is not defined
 1504256082401	Marionette	INFO	New connections will no longer be accepted
+1504274810156	geckodriver	INFO	Listening on 127.0.0.1:24808
+1504274810695	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504274814196	Marionette	INFO	Listening on port 24820
+1504274814956	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s1.tdp.ru/desktop/build/0861b0d4f35b80634d79.bundle.common.js, line 1: Error: @ADV -- RoutingEntry -- Can not get type of current page
+JavaScript error: https://s1.tdp.ru/desktop/build/0861b0d4f35b80634d79.bundle.common.js, line 1: Error: @ADV -- RoutingEntry -- Can not get type of current page
+JavaScript error: https://s1.tdp.ru/desktop/build/7234c0e9dea117b30ebc.bundle.cart.js, line 1: TypeError: ymaps.geocode is not a function
+JavaScript error: https://s1.tdp.ru/desktop/build/0861b0d4f35b80634d79.bundle.common.js, line 1: ReferenceError: event is not defined
+1504274922864	Marionette	INFO	New connections will no longer be aJavaScript error: https://s1.tdp.ru/desktop/build/7234c0e9dea117b30ebc.bundle.cart.js, line 1: TypeError: ymaps.geocode is not a function
+1504274977834	Marionette	INFO	New connections will no longer be accepted
+desktop/build/0861b0d4f35b80634d79.bundle.common.js, lJavaScript error: https://s1.tdp.ru/desktop/build/0861b0d4f35b80634d79.bJavaScript error: https://s1.tdp.ru/desktop/build/0861b0d4f35b80634d79.bundle.common.js, line 1: ReferenceError: event is not defined
+1504274928689	Marionette	INFO	New connections will no longer be accepted
+Entry -- Can not get type of current page
+1504274974218	Marionette	INFO	New connections will no longer be accepted
