@@ -13,7 +13,7 @@ class fiz_self_auth(unittest.TestCase):
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(30)
-        self.base_url = "https://petrovich.ru/"
+        self.base_url = "https:///"
         self.verificationErrors = []
         self.accept_next_alert = True
 
