@@ -1,141 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="072c2a3c-a8fa-4ed8-a07b-afbc959bc709" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_delivery_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_delivery_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_self_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_self_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_delivery_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_delivery_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_self_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_self_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Edge/delivery_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Edge/delivery_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Edge/self_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Edge/self_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/.cache/v/cache/lastfailed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/delivery_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/delivery_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/geckodriver.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/self_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/self_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_delivery_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_delivery_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_self_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_self_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/IE/.cache/v/cache/lastfailed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/IE/delivery_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/IE/delivery_non_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/IE/self_auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kluatr/regress/IE/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/master/.gitattributes" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/authorization/forgot_password_body.py" afterPath="$PROJECT_DIR$/master/Chrome/authorization/forgot_password_body.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/authorization/forgot_password_header.py" afterPath="$PROJECT_DIR$/master/Chrome/authorization/forgot_password_header.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/authorization/login_body.py" afterPath="$PROJECT_DIR$/master/Chrome/authorization/login_body.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/authorization/login_header.py" afterPath="$PROJECT_DIR$/master/Chrome/authorization/login_header.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/authorization/registration_body.py" afterPath="$PROJECT_DIR$/master/Chrome/authorization/registration_body.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/authorization/registration_header.py" afterPath="$PROJECT_DIR$/master/Chrome/authorization/registration_header.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/cart/cart.py" afterPath="$PROJECT_DIR$/master/Chrome/cart/cart.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/catalog/breadcrumbs.py" afterPath="$PROJECT_DIR$/master/Chrome/catalog/breadcrumbs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/catalog/card_product.py" afterPath="$PROJECT_DIR$/master/Chrome/catalog/card_product.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/catalog/listing.py" afterPath="$PROJECT_DIR$/master/Chrome/catalog/listing.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/city_change/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/master/Chrome/city_change/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/city_change/city_change.py" afterPath="$PROJECT_DIR$/master/Chrome/city_change/city_change.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/master/Chrome/order/auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/auth_fiz_self.py" afterPath="$PROJECT_DIR$/master/Chrome/order/auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/auth_ur_delivery.py" afterPath="$PROJECT_DIR$/master/Chrome/order/auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/auth_ur_self.py" afterPath="$PROJECT_DIR$/master/Chrome/order/auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/non_auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/master/Chrome/order/non_auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/non_auth_fiz_self.py" afterPath="$PROJECT_DIR$/master/Chrome/order/non_auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/non_auth_ur_delivery.py" afterPath="$PROJECT_DIR$/master/Chrome/order/non_auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/order/non_auth_ur_self.py" afterPath="$PROJECT_DIR$/master/Chrome/order/non_auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/other/other.py" afterPath="$PROJECT_DIR$/master/Chrome/other/other.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/kingisepp.py" afterPath="$PROJECT_DIR$/master/Chrome/search/kingisepp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/luga.py" afterPath="$PROJECT_DIR$/master/Chrome/search/luga.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/moscow.py" afterPath="$PROJECT_DIR$/master/Chrome/search/moscow.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/novgorod.py" afterPath="$PROJECT_DIR$/master/Chrome/search/novgorod.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/petrozavodsk.py" afterPath="$PROJECT_DIR$/master/Chrome/search/petrozavodsk.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/spb.py" afterPath="$PROJECT_DIR$/master/Chrome/search/spb.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/tver.py" afterPath="$PROJECT_DIR$/master/Chrome/search/tver.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Chrome/search/vyborg.py" afterPath="$PROJECT_DIR$/master/Chrome/search/vyborg.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/authorization/login.py" afterPath="$PROJECT_DIR$/master/Firefox/authorization/login.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/authorization/registration.py" afterPath="$PROJECT_DIR$/master/Firefox/authorization/registration.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/cart/cart.py" afterPath="$PROJECT_DIR$/master/Firefox/cart/cart.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/catalog/breadcrumbs.py" afterPath="$PROJECT_DIR$/master/Firefox/catalog/breadcrumbs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/catalog/card_product.py" afterPath="$PROJECT_DIR$/master/Firefox/catalog/card_product.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/catalog/listing.py" afterPath="$PROJECT_DIR$/master/Firefox/catalog/listing.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/city_change/city_change.py" afterPath="$PROJECT_DIR$/master/Firefox/city_change/city_change.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/master/Firefox/order/auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/auth_fiz_self.py" afterPath="$PROJECT_DIR$/master/Firefox/order/auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/auth_ur_delivery.py" afterPath="$PROJECT_DIR$/master/Firefox/order/auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/auth_ur_self.py" afterPath="$PROJECT_DIR$/master/Firefox/order/auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/non_auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/master/Firefox/order/non_auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/non_auth_fiz_self.py" afterPath="$PROJECT_DIR$/master/Firefox/order/non_auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/non_auth_ur_delivery.py" afterPath="$PROJECT_DIR$/master/Firefox/order/non_auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/order/non_auth_ur_self.py" afterPath="$PROJECT_DIR$/master/Firefox/order/non_auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/other/other.py" afterPath="$PROJECT_DIR$/master/Firefox/other/other.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/kingisepp.py" afterPath="$PROJECT_DIR$/master/Firefox/search/kingisepp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/luga.py" afterPath="$PROJECT_DIR$/master/Firefox/search/luga.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/moscow.py" afterPath="$PROJECT_DIR$/master/Firefox/search/moscow.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/novgorod.py" afterPath="$PROJECT_DIR$/master/Firefox/search/novgorod.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/petrozavodsk.py" afterPath="$PROJECT_DIR$/master/Firefox/search/petrozavodsk.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/spb.py" afterPath="$PROJECT_DIR$/master/Firefox/search/spb.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/tver.py" afterPath="$PROJECT_DIR$/master/Firefox/search/tver.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Firefox/search/vyborg.py" afterPath="$PROJECT_DIR$/master/Firefox/search/vyborg.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/master/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/login.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/logout.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/logout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/order.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/petrovich.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/search.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/order.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/petrovich.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/search.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_auth/cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_auth/login.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_auth/logout.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/logout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_auth/order.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_auth/petrovich.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_auth/search.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/cart.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/order.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/petrovich.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/search.html" afterPath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/master/regress/Chrome/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/fiz_delivery_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/fiz_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/fiz_delivery_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/fiz_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/fiz_self_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/fiz_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/fiz_self_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/fiz_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/ur_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/ur_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/ur_self_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/ur_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Chrome/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Chrome/ur_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Edge/delivery_auth.py" afterPath="$PROJECT_DIR$/master/regress/Edge/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Edge/delivery_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Edge/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Edge/self_auth.py" afterPath="$PROJECT_DIR$/master/regress/Edge/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Edge/self_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Edge/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/master/regress/Firefox/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/delivery_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/delivery_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/geckodriver.log" afterPath="$PROJECT_DIR$/master/regress/Firefox/geckodriver.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/self_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/self_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/ur_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/ur_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/ur_self_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/ur_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/Firefox/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/Firefox/ur_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/IE/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/master/regress/IE/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/IE/delivery_auth.py" afterPath="$PROJECT_DIR$/master/regress/IE/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/IE/delivery_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/IE/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/IE/self_auth.py" afterPath="$PROJECT_DIR$/master/regress/IE/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/regress_prod/IE/self_non_auth.py" afterPath="$PROJECT_DIR$/master/regress/IE/self_non_auth.py" />
+    <list default="true" id="072c2a3c-a8fa-4ed8-a07b-afbc959bc709" name="Default" comment="v1.00">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/master/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/master/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -426,46 +294,6 @@
               <option name="myItemId" value="pet_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pet_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kluatr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="regress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -486,11 +314,11 @@
       <recent name="C:\GitHub\pet_test\Firefox" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\pet_test" />
       <recent name="C:\GitHub\pet_test\kluatr" />
       <recent name="C:\GitHub\pet_test\master" />
       <recent name="C:\GitHub\pet_test\regress\Chrome" />
       <recent name="C:\GitHub\pet_test\Chrome\authorization" />
-      <recent name="C:\GitHub\pet_test\regress\Firefox" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -852,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504272375085</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="v1.00">
+      <created>1504526600351</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1504526600351</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1069,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/master/.gitattributes">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
@@ -1083,7 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/master/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
