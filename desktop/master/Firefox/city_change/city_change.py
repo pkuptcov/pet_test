@@ -7,7 +7,6 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
 
-
         # Подключение вебдрайвера и конфиг окружения
 class self_non_auth(unittest.TestCase):
     def setUp(self):
