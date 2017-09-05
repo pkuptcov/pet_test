@@ -2,139 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="072c2a3c-a8fa-4ed8-a07b-afbc959bc709" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/fiz_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Chrome/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Edge/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Edge/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Edge/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Edge/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Edge/self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Edge/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Edge/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Edge/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/geckodriver.log" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/geckodriver.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/Firefox/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/IE/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/IE/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/IE/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/IE/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/IE/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/IE/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/IE/self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/IE/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/kluatr/regress/IE/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/IE/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/authorization/forgot_password_body.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/authorization/forgot_password_body.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/authorization/forgot_password_header.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/authorization/forgot_password_header.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/authorization/login_body.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/authorization/login_body.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/authorization/login_header.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/authorization/login_header.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/authorization/registration_body.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/authorization/registration_body.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/authorization/registration_header.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/authorization/registration_header.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/cart/cart.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/cart/cart.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/catalog/breadcrumbs.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/catalog/breadcrumbs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/catalog/card_product.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/catalog/card_product.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/catalog/listing.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/catalog/listing.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/city_change/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/desktop/master/Chrome/city_change/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/city_change/city_change.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/city_change/city_change.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/auth_fiz_self.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/auth_ur_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/auth_ur_self.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/non_auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/non_auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/non_auth_fiz_self.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/non_auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/non_auth_ur_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/non_auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/order/non_auth_ur_self.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/order/non_auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/other/other.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/other/other.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/kingisepp.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/kingisepp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/luga.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/luga.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/moscow.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/moscow.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/novgorod.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/novgorod.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/petrozavodsk.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/petrozavodsk.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/spb.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/spb.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/tver.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/tver.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Chrome/search/vyborg.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/search/vyborg.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/authorization/login.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/authorization/login.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/authorization/registration.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/authorization/registration.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/cart/cart.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/cart/cart.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/catalog/breadcrumbs.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/catalog/breadcrumbs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/catalog/card_product.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/catalog/card_product.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/catalog/listing.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/catalog/listing.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/city_change/city_change.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/city_change/city_change.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/auth_fiz_self.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/auth_ur_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/auth_ur_self.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/non_auth_fiz_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/non_auth_fiz_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/non_auth_fiz_self.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/non_auth_fiz_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/non_auth_ur_delivery.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/non_auth_ur_delivery.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/order/non_auth_ur_self.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/order/non_auth_ur_self.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/other/other.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/other/other.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/kingisepp.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/kingisepp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/luga.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/luga.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/moscow.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/moscow.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/novgorod.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/novgorod.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/petrozavodsk.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/petrozavodsk.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/spb.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/spb.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/tver.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/tver.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/Firefox/search/vyborg.py" afterPath="$PROJECT_DIR$/desktop/master/Firefox/search/vyborg.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/login.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/logout.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/logout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/order.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/petrovich.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_auth/search.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/order.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/petrovich.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/delivery_non_auth/search.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/login.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/logout.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/logout.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/order.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/petrovich.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_auth/search.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/add_to_cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/cart.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/cart.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/order.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/order.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/petrovich.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/petrovich.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/petrovich_tests_html/self_non_auth/search.html" afterPath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/search.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/fiz_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/fiz_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/fiz_self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/fiz_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/ur_self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Chrome/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Edge/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Edge/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Edge/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Edge/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Edge/self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Edge/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Edge/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Edge/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/geckodriver.log" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/geckodriver.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/ur_self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/Firefox/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/IE/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/desktop/master/regress/IE/.cache/v/cache/lastfailed" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/IE/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/IE/delivery_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/IE/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/IE/delivery_non_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/IE/self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/IE/self_auth.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/master/regress/IE/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/IE/self_non_auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/authorization/forgot_password_body.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/authorization/forgot_password_header.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/authorization/login_body.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/authorization/login_header.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/authorization/registration_body.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/authorization/registration_header.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/cart/cart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/catalog/breadcrumbs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/catalog/card_product.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/catalog/listing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/city_change/city_change.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/auth_fiz_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/auth_fiz_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/auth_ur_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/auth_ur_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/non_auth_fiz_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/non_auth_fiz_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/non_auth_ur_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/order/non_auth_ur_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/other/other.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/kingisepp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/luga.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/moscow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/novgorod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/petrozavodsk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/spb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/tver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Chrome/search/vyborg.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/authorization/login.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/authorization/registration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/cart/cart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/catalog/breadcrumbs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/catalog/card_product.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/catalog/listing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/city_change/city_change.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/auth_fiz_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/auth_fiz_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/auth_ur_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/auth_ur_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/non_auth_fiz_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/non_auth_fiz_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/non_auth_ur_delivery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/order/non_auth_ur_self.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/other/other.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/kingisepp.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/luga.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/moscow.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/novgorod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/petrozavodsk.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/spb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/tver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/desktop/kluatr/Firefox/search/vyborg.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/geckodriver.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/master/regress/Chrome/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/geckodriver.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/desktop/master/regress/IE/.cache/v/cache/lastfailed" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_delivery_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_delivery_non_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_self_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_self_non_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/add_to_cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/login.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/logout.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/logout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/order.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/order.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/petrovich.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/petrovich.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_auth/search.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_auth/search.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/add_to_cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/order.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/order.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/petrovich.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/petrovich.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/delivery_non_auth/search.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/delivery_non_auth/search.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_auth/add_to_cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_auth/cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/login.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_auth/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/logout.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_auth/logout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/order.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_auth/order.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/petrovich.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_auth/petrovich.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/search.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_auth/search.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/add_to_cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/add_to_cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/cart.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/cart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/order.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/order.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/petrovich.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/petrovich.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/search.html" afterPath="$PROJECT_DIR$/petrovich_tests_html/self_non_auth/search.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_delivery_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_delivery_non_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_self_auth.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_self_non_auth.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_non_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_non_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_non_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/Chrome/city_change/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/desktop/master/Chrome/city_change/.cache/v/cache/lastfailed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/Chrome/city_change/city_change.py" afterPath="$PROJECT_DIR$/desktop/master/Chrome/city_change/city_change.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_non_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_non_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_non_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_non_auth.py" afterPath="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_non_auth.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -144,36 +118,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_fiz_self_auth_py__1_.coverage" NAME="py.test in fiz_self_auth.py (1) Coverage Results" MODIFIED="1504613026221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/desktop/master/regress/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_self_non_auth_py__1_.coverage" NAME="py.test in self_non_auth.py (1) Coverage Results" MODIFIED="1503664181927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress/IE" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_regress_py__3_.coverage" NAME="py.test in regress.py (3) Coverage Results" MODIFIED="1498054202975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/self_non_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_1_py.coverage" NAME="py.test in 1.py Coverage Results" MODIFIED="1497521147023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login.coverage" NAME="py.test for test_login.Login Coverage Results" MODIFIED="1497531292884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_delivery_non_auth_py.coverage" NAME="py.test in delivery_non_auth.py Coverage Results" MODIFIED="1504274831357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress_prod/Firefox" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_fiz_delivery_non_auth_py.coverage" NAME="py.test in fiz_delivery_non_auth.py Coverage Results" MODIFIED="1504522489737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/master/regress/Chrome" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_ur_self_non_auth_py.coverage" NAME="py.test in ur_self_non_auth.py Coverage Results" MODIFIED="1504617502129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/desktop/master/regress/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_regress_Regress_test_regress.coverage" NAME="py.test for regress.Regress.test_regress Coverage Results" MODIFIED="1498044908958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login_test_setUp.coverage" NAME="py.test for test_login.Login.test_setUp Coverage Results" MODIFIED="1497521262026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_fiz_delivery_auth_py.coverage" NAME="py.test in fiz_delivery_auth.py Coverage Results" MODIFIED="1504607324037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/desktop/kluatr/regress/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login_test_login.coverage" NAME="py.test for test_login.Login.test_login Coverage Results" MODIFIED="1497521412549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_city_change_Untitled_test_untitled.coverage" NAME="py.test for city_change.Untitled.test_untitled Coverage Results" MODIFIED="1503563695847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chrome/city_change" />
     <SUITE FILE_PATH="coverage/pet_test$1__1_.coverage" NAME="1 (1) Coverage Results" MODIFIED="1497521189656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_search_Search_setUp.coverage" NAME="py.test for test_search.Search.setUp Coverage Results" MODIFIED="1497531087812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_city_change_py__1_.coverage" NAME="py.test in city_change.py (1) Coverage Results" MODIFIED="1504275211334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Firefox/city_change" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_test_logout_py.coverage" NAME="py.test in test_logout.py Coverage Results" MODIFIED="1497531765849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_ur_delivery_non_auth_py.coverage" NAME="py.test in ur_delivery_non_auth.py Coverage Results" MODIFIED="1504617440676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/desktop/master/regress/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_regress_py__1_.coverage" NAME="py.test in regress.py (1) Coverage Results" MODIFIED="1498051919348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/self_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_self_auth_py__1_.coverage" NAME="py.test in self_auth.py (1) Coverage Results" MODIFIED="1503667104783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress/IE" />
-    <SUITE FILE_PATH="coverage/pet_test$py_test_in_ur_self_auth_py.coverage" NAME="py.test in ur_self_auth.py Coverage Results" MODIFIED="1504528413422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kluatr/regress/Chrome" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_ur_self_auth_py.coverage" NAME="py.test in ur_self_auth.py Coverage Results" MODIFIED="1504617464566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/desktop/master/regress/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_fiz_self_non_auth_py.coverage" NAME="py.test in fiz_self_non_auth.py Coverage Results" MODIFIED="1504274802006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress_prod/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_regress_py__2_.coverage" NAME="py.test in regress.py (2) Coverage Results" MODIFIED="1498053756176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_test_login_py.coverage" NAME="py.test in test_login.py Coverage Results" MODIFIED="1497976259619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_delivery_auth_delivery_auth_test_regress.coverage" NAME="py.test for delivery_auth.delivery_auth.test_regress Coverage Results" MODIFIED="1502180292688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_delivery_auth_py.coverage" NAME="py.test in fiz_delivery_auth.py Coverage Results" MODIFIED="1504274764664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress_prod/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_test_cart_py.coverage" NAME="py.test in test_cart.py Coverage Results" MODIFIED="1498053322151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_non_auth" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_ur_delivery_auth_py.coverage" NAME="py.test in ur_delivery_auth.py Coverage Results" MODIFIED="1504617381351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/desktop/master/regress/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_delivery_non_auth_py__1_.coverage" NAME="py.test in delivery_non_auth.py (1) Coverage Results" MODIFIED="1504255878303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress/Firefox" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_self_auth_py.coverage" NAME="py.test in self_auth.py Coverage Results" MODIFIED="1504274859625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress_prod/Firefox" />
     <SUITE FILE_PATH="coverage/pet_test$1.coverage" NAME="1 Coverage Results" MODIFIED="1497519738154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_delivery_auth_delivery_auth_setUp.coverage" NAME="py.test for delivery_auth.delivery_auth.setUp Coverage Results" MODIFIED="1502178317977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_test_login_Login_setUp.coverage" NAME="py.test for test_login.Login.setUp Coverage Results" MODIFIED="1497530431920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_delivery_auth_py__1_.coverage" NAME="py.test in delivery_auth.py Coverage Results" MODIFIED="1504274809750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress_prod/Firefox" />
-    <SUITE FILE_PATH="coverage/pet_test$py_test_in_city_change_py.coverage" NAME="py.test in city_change.py Coverage Results" MODIFIED="1504508754926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chrome/city_change" />
+    <SUITE FILE_PATH="coverage/pet_test$py_test_in_city_change_py.coverage" NAME="py.test in city_change.py Coverage Results" MODIFIED="1504620697135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/desktop/kluatr/Chrome/city_change" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_test_search_py.coverage" NAME="py.test in test_search.py Coverage Results" MODIFIED="1497531092774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/petrovich_tests_py/delivery_auth" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_for_self_auth_self_non_auth_test_regress.coverage" NAME="py.test for self_auth.self_non_auth.test_regress Coverage Results" MODIFIED="1502788207917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress/Chrome" />
     <SUITE FILE_PATH="coverage/pet_test$py_test_in_self_non_auth_py.coverage" NAME="py.test in self_non_auth.py Coverage Results" MODIFIED="1504274863454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regress_prod/Firefox" />
@@ -186,7 +165,58 @@
     <favorites_list name="pet_test" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="fiz_self_non_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_self_non_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ur_delivery_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ur_delivery_non_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_non_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ur_self_auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ur_self_non_auth.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_non_auth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -235,38 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Chrome/search/moscow.py" />
-        <option value="$PROJECT_DIR$/Chrome/search/spb.py" />
-        <option value="$PROJECT_DIR$/Chrome/search/novgorod.py" />
-        <option value="$PROJECT_DIR$/Chrome/search/vyborg.py" />
-        <option value="$PROJECT_DIR$/Chrome/search/luga.py" />
-        <option value="$PROJECT_DIR$/Chrome/search/kingisepp.py" />
-        <option value="$PROJECT_DIR$/Chrome/search/petrozavodsk.py" />
-        <option value="$PROJECT_DIR$/Chrome/search/tver.py" />
-        <option value="$PROJECT_DIR$/Chrome/other/other.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/regress/IE/delivery_auth.py" />
-        <option value="$PROJECT_DIR$/regress/IE/delivery_non_auth.py" />
-        <option value="$PROJECT_DIR$/regress/IE/self_auth.py" />
-        <option value="$PROJECT_DIR$/regress/IE/self_non_auth.py" />
-        <option value="$PROJECT_DIR$/Chrome/city_change/city_change.py" />
-        <option value="$PROJECT_DIR$/Firefox/city_change/city_change.py" />
-        <option value="$PROJECT_DIR$/Chrome/authorization/login_body.py" />
-        <option value="$PROJECT_DIR$/Chrome/authorization/registration_body.py" />
-        <option value="$PROJECT_DIR$/Chrome/authorization/forgot_password_header.py" />
-        <option value="$PROJECT_DIR$/Chrome/authorization/forgot_password_body.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/self_non_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/delivery_non_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/self_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/delivery_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Firefox/delivery_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/fiz_delivery_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/fiz_delivery_non_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/fiz_self_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/fiz_self_non_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/ur_delivery_non_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/ur_self_auth.py" />
-        <option value="$PROJECT_DIR$/regress/Chrome/ur_self_non_auth.py" />
         <option value="$PROJECT_DIR$/regress/Chrome/ur_delivery_auth.py" />
         <option value="$PROJECT_DIR$/master/Chrome/city_change/city_change.py" />
         <option value="$PROJECT_DIR$/kluatr/regress/Chrome/ur_delivery_auth.py" />
@@ -286,6 +284,38 @@
         <option value="$PROJECT_DIR$/kluatr/regress/IE/delivery_non_auth.py" />
         <option value="$PROJECT_DIR$/kluatr/regress/IE/self_auth.py" />
         <option value="$PROJECT_DIR$/kluatr/regress/IE/self_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/Chrome/city_change/city_change.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_self_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_self_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_self_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_self_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_non_auth.py" />
+        <option value="$PROJECT_DIR$/desktop/kluatr/Firefox/city_change/city_change.py" />
       </list>
     </option>
   </component>
@@ -344,18 +374,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitHub\pet_test\desktop" />
+      <recent name="C:\GitHub\pet_test\desktop\kluatr" />
       <recent name="C:\GitHub\pet_test" />
+      <recent name="C:\GitHub\pet_test\desktop" />
       <recent name="C:\GitHub\pet_test\kluatr" />
       <recent name="C:\GitHub\pet_test\master" />
-      <recent name="C:\GitHub\pet_test\regress\Chrome" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub\pet_test\desktop\kluatr\regress\Firefox" />
+      <recent name="C:\GitHub\pet_test\desktop\master\regress\Firefox" />
+      <recent name="C:\GitHub\pet_test\desktop\master" />
+      <recent name="C:\GitHub\pet_test\desktop" />
       <recent name="C:\GitHub\pet_test\kluatr\regress" />
-      <recent name="C:\GitHub\pet_test\regress\Firefox" />
-      <recent name="C:\GitHub\pet_test\regress\Edge" />
-      <recent name="C:\GitHub\pet_test\regress\IE" />
-      <recent name="C:\GitHub\pet_test\Firefox" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -370,25 +400,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in fiz_self_auth.py">
-    <configuration default="false" name="py.test in city_change.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desktop/master/Firefox/city_change" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pet_test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/master/Firefox/city_change/city_change.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in fiz_delivery_non_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test in city_change.py">
+    <configuration default="false" name="py.test in ur_delivery_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -401,7 +414,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_non_auth.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_auth.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in ur_delivery_non_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desktop/master/regress/Chrome" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pet_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_non_auth.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -410,7 +440,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desktop/master/regress/Chrome" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -418,16 +448,16 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_auth.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_auth.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="py.test in fiz_self_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="py.test in ur_self_non_auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desktop/kluatr/regress/Chrome" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desktop/master/regress/Chrome" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -435,7 +465,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_self_auth.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_non_auth.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in city_change.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/desktop/kluatr/Chrome/city_change" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pet_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/desktop/kluatr/Chrome/city_change/city_change.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -588,19 +635,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in city_change.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in fiz_delivery_non_auth.py" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in ur_delivery_auth.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in ur_delivery_non_auth.py" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in ur_self_auth.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in fiz_self_auth.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in ur_self_non_auth.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in city_change.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in fiz_self_auth.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in ur_self_auth.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in fiz_delivery_non_auth.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in city_change.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in city_change.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in city_change.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in ur_self_non_auth.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in ur_self_auth.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in ur_delivery_non_auth.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in ur_delivery_auth.py" />
       </list>
     </recent_temporary>
   </component>
@@ -734,39 +782,53 @@
       <option name="project" value="LOCAL" />
       <updated>1504528219495</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="v1.00">
+      <created>1504600584440</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1504600584441</updated>
+    </task>
+    <task id="LOCAL-00019" summary="v1.00">
+      <created>1504617793610</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1504617793610</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_city_change_py - 2017.09.04 at 10h 05m 14s.xml">
+    <history-entry file="py_test_in_city_change_py - 2017.09.05 at 16h 26m 24s.xml">
       <configuration name="py.test in city_change.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_city_change_py - 2017.09.04 at 10h 06m 57s.xml">
+    <history-entry file="py_test_in_city_change_py - 2017.09.05 at 17h 10m 41s.xml">
       <configuration name="py.test in city_change.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_city_change_py_(1) - 2017.09.01 at 17h 14m 05s.xml">
-      <configuration name="py.test in city_change.py (1)" configurationId="tests" />
+    <history-entry file="py_test_in_city_change_py - 2017.09.05 at 17h 13m 26s.xml">
+      <configuration name="py.test in city_change.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_delivery_auth_py - 2017.09.01 at 17h 08m 43s.xml">
-      <configuration name="py.test in delivery_auth.py" configurationId="tests" />
+    <history-entry file="py_test_in_fiz_self_auth_py_(1) - 2017.09.05 at 14h 54m 42s.xml">
+      <configuration name="py.test in fiz_self_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_delivery_non_auth_py - 2017.09.01 at 17h 09m 38s.xml">
-      <configuration name="py.test in delivery_non_auth.py" configurationId="tests" />
+    <history-entry file="py_test_in_fiz_self_auth_py_(1) - 2017.09.05 at 14h 56m 47s.xml">
+      <configuration name="py.test in fiz_self_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_fiz_delivery_non_auth_py - 2017.09.04 at 13h 55m 17s.xml">
-      <configuration name="py.test in fiz_delivery_non_auth.py" configurationId="tests" />
+    <history-entry file="py_test_in_fiz_self_auth_py_(1) - 2017.09.05 at 15h 04m 14s.xml">
+      <configuration name="py.test in fiz_self_auth.py (1)" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_fiz_self_auth_py - 2017.09.04 at 15h 34m 49s.xml">
-      <configuration name="py.test in fiz_self_auth.py" configurationId="tests" />
+    <history-entry file="py_test_in_ur_delivery_auth_py - 2017.09.05 at 16h 17m 05s.xml">
+      <configuration name="py.test in ur_delivery_auth.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_self_auth_py - 2017.09.01 at 17h 08m 49s.xml">
-      <configuration name="py.test in self_auth.py" configurationId="tests" />
+    <history-entry file="py_test_in_ur_delivery_non_auth_py - 2017.09.05 at 16h 17m 48s.xml">
+      <configuration name="py.test in ur_delivery_non_auth.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_self_non_auth_py - 2017.09.01 at 17h 09m 34s.xml">
-      <configuration name="py.test in self_non_auth.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_ur_self_auth_py - 2017.09.04 at 15h 33m 33s.xml">
+    <history-entry file="py_test_in_ur_self_auth_py - 2017.09.05 at 16h 18m 28s.xml">
       <configuration name="py.test in ur_self_auth.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_ur_self_non_auth_py - 2017.09.05 at 16h 19m 40s.xml">
+      <configuration name="py.test in ur_self_non_auth.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -781,13 +843,13 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1380597" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26309922" sideWeight="0.195629" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26309922" sideWeight="0.1988273" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.7265459" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26309922" sideWeight="0.804371" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26309922" sideWeight="0.80117273" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12260128" sideWeight="0.5064516" order="2" side_tool="true" content_ui="tabs" />
@@ -846,266 +908,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/add_to_cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/logout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_auth/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/add_to_cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/cart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/petrovich_tests_html/self_non_auth/search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_self_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_self_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Edge/delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Edge/delivery_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Edge/self_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Edge/self_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/delivery_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/self_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/self_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/IE/delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/IE/delivery_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/master/regress/IE/self_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desktop/master/regress/IE/self_non_auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_self_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1142,62 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/delivery_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/self_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/self_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_self_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_non_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/IE/self_non_auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1230,23 +980,335 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_non_auth.py">
+    <entry file="file://$PROJECT_DIR$/desktop/regress/IE/.cache/v/cache/lastfailed">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/Chrome/cart/cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Edge/delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/fiz_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/fiz_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_self_auth.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Chrome/ur_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/Firefox/city_change/city_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/kluatr/Chrome/city_change/city_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="81" column="56" lean-forward="false" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="55" lean-forward="true" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/fiz_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/ur_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Chrome/ur_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/fiz_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/master/regress/Firefox/ur_self_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/regress/Chrome/fiz_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/kluatr/regress/Firefox/ur_delivery_non_auth.py">
+    <entry file="file://$PROJECT_DIR$/desktop/regress/Chrome/fiz_delivery_non_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/regress/Chrome/ur_delivery_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/regress/Chrome/ur_self_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/regress/Chrome/ur_self_non_auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
