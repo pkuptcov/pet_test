@@ -48,7 +48,7 @@ class self_non_auth(unittest.TestCase):
         driver.find_element_by_css_selector("[ng-model=\"orderingSelfCtrl.order.userEmail\"]").send_keys(
             "propetrovich@mail.ru")
         driver.find_element_by_css_selector("[ng-model=\"orderingSelfCtrl.order.userPhone\"]").send_keys(
-            "+7 (111) 111-11-11")
+            "(111) 111-11-11")
         driver.find_element_by_css_selector("textarea[ng-model='orderingSelfCtrl.order.userComment']").send_keys(
             "тест")
         driver.find_element_by_css_selector("input[ng-click=\"orderingSelfCtrl.make($event)\"]").click()

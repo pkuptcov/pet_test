@@ -64,7 +64,7 @@ class ur_self_auth(unittest.TestCase):
             "propetrovich@mail.ru")
         driver.find_element_by_css_selector("[ng-model=\"orderingSelfCtrl.order.userPhone\"]").clear()
         driver.find_element_by_css_selector("[ng-model=\"orderingSelfCtrl.order.userPhone\"]").send_keys(
-            "+7 (111) 111-11-11")
+            "(111) 111-11-11")
         driver.find_element_by_name("user_name").clear()
         driver.find_element_by_name("user_name").send_keys("Тест")
         driver.find_element_by_css_selector("textarea[ng-model='orderingSelfCtrl.order.userComment']").send_keys(

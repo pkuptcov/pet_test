@@ -52,7 +52,7 @@ class fiz_delivery_non_auth(unittest.TestCase):
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").send_keys(
             "propetrovich@mail.ru")
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userPhone\"]").send_keys(
-            "+7 (111) 111-11-11")
+            "(111) 111-11-11")
         driver.find_element_by_name("user_name").send_keys("Тест")
         driver.find_element_by_css_selector("textarea[ng-model='orderDeliveryCtrl.order.userComment']").send_keys(
             "тест")
