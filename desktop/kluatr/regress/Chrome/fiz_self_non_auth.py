@@ -45,6 +45,7 @@ class fiz_self_non_auth(unittest.TestCase):
 
         # Страница оформления заказа
         driver.find_element_by_name("base").click()
+        #driver.find_element_by_xpath('//*[@value="online"]').click()
         driver.find_element_by_css_selector("input[value=\"online\"]").click()
         driver.find_element_by_css_selector("[ng-model=\"orderingSelfCtrl.order.userEmail\"]").send_keys(
             "propetrovich@mail.ru")

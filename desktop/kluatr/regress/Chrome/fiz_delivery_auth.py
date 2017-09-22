@@ -56,7 +56,7 @@ class fiz_delivery_auth(unittest.TestCase):
             "Россия, Санкт-Петербург, Благодатная улица, 6")
         driver.find_element_by_xpath("(//input[@name='delivery_day'])[3]").click()
         driver.find_element_by_css_selector("[ng-change=\"orderDeliveryCtrl.deliveryTypeChange('standard')\"]").click()
-        time.sleep(1)
+        time.sleep(2)
         driver.find_element_by_css_selector("option[value='С2330До0330']").click()
         driver.find_element_by_css_selector("input[value=\"online\"]").click()
         driver.find_element_by_css_selector("[ng-model=\"orderDeliveryCtrl.order.userEmail\"]").clear()

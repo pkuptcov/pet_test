@@ -44,7 +44,7 @@ class ur_delivery_non_auth(unittest.TestCase):
             "Россия, Санкт-Петербург, Благодатная улица, 6")
         driver.find_element_by_xpath("(//input[@name='delivery_day'])[3]").click()
         driver.find_element_by_css_selector("[ng-change=\"orderDeliveryCtrl.deliveryTypeChange('standard')\"]").click()
-        time.sleep(1)
+        time.sleep(2)
         driver.find_element_by_css_selector("option[value='С2330До0330']").click()
         driver.find_element_by_css_selector("input[placeholder=\"Название\"]").clear()
         driver.find_element_by_css_selector("input[placeholder=\"Название\"]").send_keys("Тест")

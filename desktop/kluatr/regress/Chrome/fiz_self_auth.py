@@ -27,7 +27,7 @@ class fiz_self_auth(unittest.TestCase):
         driver.find_element_by_id("mainPetrovichLogin_login").send_keys("xigekuba@p33.org")
         driver.find_element_by_id("mainPetrovichLogin_password").send_keys("111111")
         driver.find_element_by_css_selector("div.form_row [type=submit]").click()
-        time.sleep(1)
+        time.sleep(2)
 
         # Проверка авторизации
         self.assertTrue(self.is_element_present(By.LINK_TEXT, "test"))
