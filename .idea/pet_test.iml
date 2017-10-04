@@ -7,6 +7,9 @@
     <orderEntry type="module" module-name="python_training" />
     <orderEntry type="module" module-name="pet" />
   </component>
+  <component name="PackageRequirementsSettings">
+    <option name="requirementsPath" value="" />
+  </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="py.test" />
     <option name="PROJECT_TEST_RUNNER" value="py.test" />

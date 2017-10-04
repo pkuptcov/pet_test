@@ -28,7 +28,8 @@ class fiz_delivery_non_auth(unittest.TestCase):
 
         # Увеличение товара в листинге выдачи поиска
         driver.find_element_by_css_selector("div.stepper-arrow.up.unit--step").click()
-        driver.find_element_by_css_selector("[data-product-code='101846']").click()
+        driver.find_element_by_css_selector("div.btn_cart.listing__product-button.product__button.ng-scope").click()
+        # driver.find_element_by_css_selector("[data-product-code='101846']").click()
 
         # Переход в корзину
         driver.find_element_by_css_selector("div.head_basket_wrapper").click()
